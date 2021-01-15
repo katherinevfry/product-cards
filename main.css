@@ -1,0 +1,50 @@
+h1 {
+  text-align:center;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+margin: 15px;
+flex-flow: row wrap;
+box-shadow: 1px 3px 6px #e0e0e0;
+}
+
+header h2 {
+  border: solid 1px lightblue;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+div img {
+  height: 250px;
+  width: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+ }
+
+ .product-info p:first-child {
+   padding-left: 10px;
+ }
+  
+
+ .specs > p {
+   font-weight: bold;
+   padding-left: 10px;
+ }
+
+ .product-info p:last-child {
+   background-color: darkgray;
+   color: yellow;
+   padding-left: 10px;
+ }
+
+ .pricing > p {
+   padding-left: 10px;
+   font-weight: bold;
+ }
