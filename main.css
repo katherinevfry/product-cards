@@ -1,5 +1,13 @@
+body {
+  background-color: #016157;
+}
+
 h1 {
   text-align:center;
+  color:  #FFFFFF;
+  font-family: 'Yeseva One', cursive;
+  font-size: 4em;
+  font-weight:lighter;
 }
 
 .card-container {
@@ -9,14 +17,21 @@ h1 {
 .card {
 margin: 15px;
 flex-flow: row wrap;
-box-shadow: 1px 3px 6px #e0e0e0;
+box-shadow: 1px 3px 6px #01423c;
+background-color:#FFFFFF;
 }
 
 header h2 {
-  border: solid 1px lightblue;
+  border: solid 1px #00796B;
   padding: 10px;
   margin: 0;
-  text-align: center;
+}
+
+h2 {
+  color: #016157;
+  text-align:center;
+  font-family: 'Yeseva One', cursive;
+  font-weight:lighter;
 }
 
 div img {
@@ -25,26 +40,52 @@ div img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   object-fit: cover;
+  
  }
 
- .product-info p:first-child {
-   padding-left: 10px;
+ .description {
+   text-align:justify;
+   padding: 3px;
+   font-family: 'Nunito', sans-serif;
  }
   
 
  .specs > p {
    font-weight: bold;
    padding-left: 10px;
+   font-family: 'Nunito', sans-serif;
  }
 
  .product-info p:last-child {
-   background-color: darkgray;
-   color: yellow;
    padding-left: 10px;
+   background-color: #BDBDBD;
+   color:#009688;
+   font-family: 'Nunito', sans-serif;
  }
 
  .pricing > p {
    padding-left: 10px;
+   font-family: 'Nunito', sans-serif;
    font-weight: bold;
  }
+
+ h3 {
+   color: #009688;
+   font-family: 'Nunito', sans-serif;
+ }
+
+ footer {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+ }
+
+ /* .dark-primary-color    { background: #00796B; }
+.default-primary-color { background: #009688; }
+.light-primary-color   { background: #B2DFDB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #009688; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; } */
