@@ -5,20 +5,22 @@ body {
 h1 {
   text-align:center;
   color:  #FFFFFF;
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Calistoga', cursive;
   font-size: 4em;
   font-weight:lighter;
 }
 
 .card-container {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
 margin: 15px;
-flex-flow: row wrap;
 box-shadow: 1px 3px 6px #01423c;
 background-color:#FFFFFF;
+width: 300px;
 }
 
 header h2 {
@@ -30,11 +32,11 @@ header h2 {
 h2 {
   color: #016157;
   text-align:center;
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Calistoga', cursive;
   font-weight:lighter;
 }
 
-div img {
+.card-img {
   height: 250px;
   width: 175px;
   display: block;
@@ -48,44 +50,58 @@ div img {
  .description {
    text-align:justify;
    padding: 3px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
   
 
  .specs > p {
    font-weight: bold;
    padding-left: 10px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
 
  .product-info p:last-child {
    padding-left: 10px;
    background-color: #BDBDBD;
    color:#009688;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
 
  .pricing > p {
    padding-left: 10px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: bold;
  }
 
  h3 {
    color: #009688;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Calistoga', cursive;
  }
 
  footer {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
  }
 
- /* .dark-primary-color    { background: #00796B; }
-.default-primary-color { background: #009688; }
-.light-primary-color   { background: #B2DFDB; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #009688; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; } */
+.sold-out-container {
+  position: relative;
+  top:0;
+  width: 300px
+}
+
+.card6-img {
+  position: absolute;
+  height: 250px;
+  width: 175px;
+  top:0;
+  z-index:1;
+}
+
+.sold-out {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  
+}
