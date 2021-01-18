@@ -1,24 +1,27 @@
 body {
   background-color: #016157;
+  margin: auto;
 }
 
 h1 {
   text-align:center;
   color:  #FFFFFF;
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Calistoga', cursive;
   font-size: 4em;
   font-weight:lighter;
 }
 
 .card-container {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
 margin: 15px;
-flex-flow: row wrap;
 box-shadow: 1px 3px 6px #01423c;
 background-color:#FFFFFF;
+width: 300px;
 }
 
 header h2 {
@@ -30,7 +33,7 @@ header h2 {
 h2 {
   color: #016157;
   text-align:center;
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Calistoga', cursive;
   font-weight:lighter;
 }
 
@@ -48,36 +51,36 @@ div img {
  .description {
    text-align:justify;
    padding: 3px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
   
 
  .specs > p {
    font-weight: bold;
    padding-left: 10px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
 
  .product-info p:last-child {
    padding-left: 10px;
    background-color: #BDBDBD;
    color:#009688;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
 
  .pricing > p {
    padding-left: 10px;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: bold;
  }
 
  h3 {
    color: #009688;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Calistoga', cursive;
  }
 
  footer {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
  }
 
