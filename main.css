@@ -37,7 +37,7 @@ h2 {
   font-weight:lighter;
 }
 
-div img {
+.card-img {
   height: 250px;
   width: 175px;
   display: block;
@@ -84,11 +84,25 @@ div img {
   font-size: 12px;
  }
 
- /* .dark-primary-color    { background: #00796B; }
-.default-primary-color { background: #009688; }
-.light-primary-color   { background: #B2DFDB; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #009688; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; } */
+.sold-out-container {
+  position: relative;
+  top:0;
+  width: 300px
+}
+
+.card6-img {
+  position: absolute;
+  height: 250px;
+  width: 175px;
+  top:0;
+  z-index:1;
+}
+
+.sold-out {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  
+}
